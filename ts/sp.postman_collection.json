@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "5effebb1-14a8-40b6-9e6a-5430e08f81f6",
+		"name": "sp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21244209"
+	},
+	"item": [
+		{
+			"name": "Q1",
+			"item": [
+				{
+					"name": "for-loop",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/sum/for-loop",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"sum",
+								"for-loop"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "while-loop",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/sum/while-loop",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"sum",
+								"while-loop"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "recursion",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/sum/recursion",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"sum",
+								"recursion"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Q2",
+			"item": [
+				{
+					"name": "Combine",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Q3",
+			"item": [
+				{
+					"name": "fibonacci",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
